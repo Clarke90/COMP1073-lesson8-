@@ -5,11 +5,17 @@
     
     "use strict";
     
-    var person = {}; /*var person = new object();*/
+    var person = {
+        
+        "age": 25, 
+        "name": "Chad", 
+    }; /*var person = new object();*/
     
-    Person.age = 40; 
-    
-    console.log(Person.age);
+
+
+for(var key in person){
+    console.log(person[key]);
+}
     
     
 })();
